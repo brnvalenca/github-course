@@ -28,9 +28,10 @@ Comando -> git commit -m "Mensagem do commit"
 Visualização de LOGS
 - git log 
 - git log --decorate
-- git log author -sn
 - git log author "nome do autor"
 - git log --graph
+- git shortlog 
+- git shortlog -sn
 
 Todos esses comandos retornam logs de commits que foram enviados por todos os autores com acesso ao repositório.
 
