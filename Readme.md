@@ -36,4 +36,9 @@ Visualização de LOGS
 
 Todos esses comandos retornam logs de commits que foram enviados por todos os autores com acesso ao repositório.
 
+Vamos aprender agora sobre DIFF. Como visualizar as diferenças num arquivo antes de realizar um commit.
 
+- git diff 
+- git diff --name-only
+
+Dessa forma, utilizando o git diff, você consegue visualizar alterações no seu arquivo antes de realizar um commit. 
