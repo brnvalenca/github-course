@@ -32,6 +32,7 @@ Visualização de LOGS
 - git log --graph
 - git shortlog 
 - git shortlog -sn
+- git show "hash do commit"
 
 Todos esses comandos retornam logs de commits que foram enviados por todos os autores com acesso ao repositório.
 
