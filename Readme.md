@@ -25,3 +25,13 @@ O que é um COMMIT
 
 Comando -> git commit -m "Mensagem do commit"
 
+Visualização de LOGS
+- git log 
+- git log --decorate
+- git log author -sn
+- git log author "nome do autor"
+- git log --graph
+
+Todos esses comandos retornam logs de commits que foram enviados por todos os autores com acesso ao repositório.
+
+
