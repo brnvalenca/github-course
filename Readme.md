@@ -57,3 +57,6 @@ obs: o nome do repositório origin é padrão.
 
 - Para clonar um repositório para o seu local basta usar o comando git clone <endereço http ou ssh do repositorio> <nome do arquivo criado local>
 
+Para que serve o FORK:
+- Voce pode precisar 'forkar' um projeto, quando ele não é seu, mas voce quer contribuir com ele de alguma forma, alguma documentacao que esteja faltando, algum código que precise ser acrescido. O clone não permite que voce modifique arquivos e envie de volta para o repositorio que nao é seu. Ja o fork permite que voce copie um repositorio que nao lhe pertence para o seu local de trabalho, desenvolve o que voce precise e realize um pull request para enviar as contribuicoes.
+
