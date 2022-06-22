@@ -82,4 +82,9 @@ Métodos:
 
 - Rebase: processo de fastfoward. O rebase pega tudo da branch separada que está sendo 'manipulado' e o envia para frente da fila de commits. Dessa forma ele consegue manter uma linearidade do gráfico de commits.  Basicamente então: tenho um commit e quero junta-lo a uma branch principal, esse commit será recortado e enviado para a branch principal, e o commit vai para o final da fila de commits, ele nao cria um novo commit.
 
+## Usando o git revert
+
+- o comando git revert pode reverter as alterações que voce realizou em um commit, porém não apaga esse commit como faz o git reset.
+- ele é muito util quando voce fez alguma alteracao que quebrou o codigo em algum ponto, porém nao quer apagar o commit para não perder as alteracoes pois voce quer trabalhar naquilo.
+- entao o git revert retira as alteracoes feitas, porem mantem o commit, que podera depois ser retirado da area de commits e trabalhado novamente.
 
