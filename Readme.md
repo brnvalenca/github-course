@@ -54,3 +54,6 @@ Como eu faço para mandar um arquivo modificado no meu local para o github?
 
 - Após comitado, é necessário realizar um push através do comando: git push origin <branch_atual>
 obs: o nome do repositório origin é padrão.
+
+- Para clonar um repositório para o seu local basta usar o comando git clone <endereço http ou ssh do repositorio> <nome do arquivo criado local>
+
