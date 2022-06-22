@@ -1,10 +1,10 @@
 # github
-Arquivo da aula de git e github para iniciante
+Arquivo da aula de git e github para iniciante &nbsp;
 Digite, no bash, vim <nomedoarquivo.extensao> para abrir o arquivo dentro do editor vim
-No vim, digite I para entrar no modo inserção.
+No vim, digite I para entrar no modo inserção. &nbsp;
 Apertar a tecla : para sinalizar que deseja iniciar algum comando
 Apertar a tecla w após o :, identifica que o comando será de write, escrita.
-Apertar a tecla q, após o :, identifica que deseja sair do vim.
+Apertar a tecla q, após o :, identifica que deseja sair do vim. 
 Apertar :wq identifica que deseja iniciar um comando, que será um comando de escrita e para sair do vim.
 A tecla esc sai do comando atual.
 
