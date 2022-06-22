@@ -49,3 +49,8 @@ Agora um ponto importantíssimo, como DESFAZER alguma ação usando GIT?
 - git reset HEAD : Retira o arquivo da fila do staged, e o retorne para o estágio anterior, a partir dai pode-se usar o git checkout.
 - git reset --soft --mixed --hard: retorna o arquivo do commit para a área de staged; retorna os arquivos para o estado modified, antes do estágio; mata tudo que foi feito no commit, destroi todas as alterações.
 Ponto importante: deve ser passado a hash do commit anterior ao que se deseja resetar.
+
+Como eu faço para mandar um arquivo modificado no meu local para o github?
+
+- Após comitado, é necessário realizar um push através do comando: git push origin <branch_atual>
+obs: o nome do repositório origin é padrão.
